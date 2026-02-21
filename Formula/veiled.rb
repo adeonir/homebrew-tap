@@ -6,12 +6,12 @@ class Veiled < Formula
 
   on_arm do
     url "https://github.com/adeonir/veiled/releases/download/v#{version}/veiled-macos-arm64"
-    sha256 "ARM64_SHA256"
+    sha256 "0c882f6bb46fcb25d4d64ebed1557a4400e48e64b84d949c9f3e692099f4dd22"
   end
 
   on_intel do
     url "https://github.com/adeonir/veiled/releases/download/v#{version}/veiled-macos-x64"
-    sha256 "X64_SHA256"
+    sha256 "17b9ab016fe0457a1d1a91088d3fe001a54a00ac9122c9fe4fc72eadf48dce30"
   end
 
   def install
