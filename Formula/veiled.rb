@@ -1,17 +1,17 @@
 class Veiled < Formula
   desc "A macOS CLI to automatically exclude development artifacts from Time Machine backups"
   homepage "https://github.com/adeonir/veiled"
-  version "0.0.8"
+  version "0.0.9"
   license "MIT"
 
   on_arm do
     url "https://github.com/adeonir/veiled/releases/download/v#{version}/veiled-macos-arm64"
-    sha256 "12abd4ad6c43bd14116b1d168875be48cc15ed552b05c4686b3de705de98e8d7"
+    sha256 "13bf3c0775902778ae781844d015e1fd752a1d0e1a1b2fa73cb8f7ff929a24e5"
   end
 
   on_intel do
     url "https://github.com/adeonir/veiled/releases/download/v#{version}/veiled-macos-x64"
-    sha256 "2cc651ee7db11386c47fa34ae4b6700196bb55f3cd0e692c797ffb232ae9ca40"
+    sha256 "4ec0ce487636af0332d5df7571bdfa07517b5bbe7a105d49582095dc6798c801"
   end
 
   def install
